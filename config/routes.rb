@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get 'student' ,to:"student#std"
   get'course',to:"course#sub"
   get 'teach',to:"faculty#teach"
+  get '/std', to: "std/std"
 end
